@@ -21,8 +21,8 @@ class CaloriesFormPage(MethodView):
 
 
 class CaloriesForm(Form):
-    weight = StringField("Weight in lbs: ")
-    height = StringField("Height in feet/inches: ")
+    weight = StringField("Weight in kg: ")
+    height = StringField("Height in cm: ")
     age = StringField("Age: ")
 
     city = StringField("City: ")
